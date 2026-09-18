@@ -1,0 +1,143 @@
+device=cuda instances=15 obs_dim=6690 actions=6000
+init greedy eval mean Cmax/LB: 222.661
+iter   20 | pi -0.0028 v 140.6565 | rollout Cmax/LB 38.834 | 3530 env-steps/s
+iter   40 | pi -0.0142 v 79.1967 | rollout Cmax/LB 36.933 | 3588 env-steps/s
+iter   50 | greedy eval mean Cmax/LB 66.088  <- best, saved | 216.52 180.25 108.64 94.24 38.43 19.03 63.93 74.56 118.43 58.19 3.44 3.93 2.73 5.57 3.43
+iter   60 | pi -0.0123 v 30.5390 | rollout Cmax/LB 35.733 | 3298 env-steps/s
+iter   80 | pi -0.0113 v 24.4629 | rollout Cmax/LB 33.950 | 3635 env-steps/s
+iter  100 | pi -0.0083 v 20.0841 | rollout Cmax/LB 32.812 | 3457 env-steps/s
+iter  100 | greedy eval mean Cmax/LB 58.140  <- best, saved | 212.69 169.63 79.23 53.29 33.73 17.84 93.75 52.86 75.35 69.07 2.65 2.68 2.73 4.39 2.20
+iter  120 | pi -0.0092 v 26.9381 | rollout Cmax/LB 31.202 | 3417 env-steps/s
+iter  140 | pi -0.0083 v 11.3452 | rollout Cmax/LB 30.615 | 3460 env-steps/s
+iter  150 | greedy eval mean Cmax/LB 49.578  <- best, saved | 169.09 73.63 63.18 56.25 36.70 21.37 76.07 52.14 102.91 79.45 2.78 3.32 2.25 2.96 1.59
+iter  160 | pi -0.0044 v 14.0300 | rollout Cmax/LB 30.332 | 3254 env-steps/s
+iter  180 | pi -0.0015 v 13.9542 | rollout Cmax/LB 29.260 | 3476 env-steps/s
+iter  200 | pi -0.0044 v 14.9133 | rollout Cmax/LB 28.656 | 3432 env-steps/s
+iter  200 | greedy eval mean Cmax/LB 42.617  <- best, saved | 117.21 97.53 63.02 47.22 43.02 22.11 81.43 57.82 50.58 45.49 2.70 2.16 2.16 3.89 2.93
+iter  220 | pi +0.0009 v 11.9550 | rollout Cmax/LB 28.366 | 3220 env-steps/s
+iter  240 | pi -0.0085 v 13.0618 | rollout Cmax/LB 28.874 | 3320 env-steps/s
+iter  250 | greedy eval mean Cmax/LB 37.305  <- best, saved | 66.72 58.53 42.01 42.29 46.43 24.04 66.07 69.61 75.87 57.03 1.95 2.09 1.86 2.96 2.11
+iter  260 | pi -0.0035 v 10.3414 | rollout Cmax/LB 27.105 | 3254 env-steps/s
+iter  280 | pi -0.0093 v 8.9991 | rollout Cmax/LB 27.115 | 3330 env-steps/s
+iter  300 | pi -0.0106 v 18.2934 | rollout Cmax/LB 26.202 | 3333 env-steps/s
+iter  300 | greedy eval mean Cmax/LB 34.008  <- best, saved | 85.86 80.85 47.83 43.96 20.91 10.35 48.04 60.44 54.77 45.33 1.73 2.11 1.60 3.43 2.91
+iter  320 | pi -0.0071 v 10.8999 | rollout Cmax/LB 25.232 | 3281 env-steps/s
+iter  340 | pi -0.0049 v 7.1006 | rollout Cmax/LB 24.662 | 3345 env-steps/s
+iter  350 | greedy eval mean Cmax/LB 27.030  <- best, saved | 65.02 57.20 44.81 39.23 19.46 9.75 49.82 31.89 36.80 41.21 2.20 1.96 1.40 2.72 1.97
+iter  360 | pi +0.0074 v 7.4916 | rollout Cmax/LB 24.217 | 3558 env-steps/s
+iter  380 | pi -0.0070 v 7.2715 | rollout Cmax/LB 24.493 | 3702 env-steps/s
+iter  400 | pi -0.0151 v 5.2064 | rollout Cmax/LB 24.215 | 3641 env-steps/s
+iter  400 | greedy eval mean Cmax/LB 26.460  <- best, saved | 59.17 52.98 38.56 36.61 16.01 7.61 55.36 36.84 44.30 38.08 1.98 2.25 1.39 3.32 2.44
+iter  420 | pi -0.0069 v 7.1418 | rollout Cmax/LB 23.650 | 3510 env-steps/s
+iter  440 | pi -0.0103 v 7.1388 | rollout Cmax/LB 22.456 | 3616 env-steps/s
+iter  450 | greedy eval mean Cmax/LB 21.619  <- best, saved | 47.59 39.41 28.71 23.93 16.53 8.38 38.39 28.83 33.84 47.14 1.73 2.93 2.09 2.59 2.20
+iter  460 | pi -0.0106 v 5.4878 | rollout Cmax/LB 22.209 | 3533 env-steps/s
+iter  480 | pi -0.0040 v 4.3566 | rollout Cmax/LB 22.067 | 3321 env-steps/s
+iter  500 | pi -0.0072 v 5.1406 | rollout Cmax/LB 21.995 | 3322 env-steps/s
+iter  500 | greedy eval mean Cmax/LB 22.063 | 48.57 50.54 28.71 28.57 18.37 8.99 42.86 33.50 27.03 33.63 2.04 2.58 1.19 2.69 1.68
+iter  520 | pi -0.0093 v 5.3360 | rollout Cmax/LB 21.344 | 3296 env-steps/s
+iter  540 | pi -0.0103 v 6.4752 | rollout Cmax/LB 21.197 | 3485 env-steps/s
+iter  550 | greedy eval mean Cmax/LB 19.236  <- best, saved | 41.95 43.17 26.66 21.56 14.72 8.22 32.32 28.25 36.10 26.04 2.29 1.35 1.26 2.57 2.08
+iter  560 | pi -0.0113 v 4.2602 | rollout Cmax/LB 20.562 | 3320 env-steps/s
+iter  580 | pi -0.0133 v 5.3508 | rollout Cmax/LB 20.331 | 3492 env-steps/s
+iter  600 | pi -0.0123 v 4.1399 | rollout Cmax/LB 20.094 | 3435 env-steps/s
+iter  600 | greedy eval mean Cmax/LB 21.711 | 50.02 44.95 28.98 22.30 19.50 9.25 34.29 38.16 36.80 31.32 1.55 2.56 1.30 2.69 2.01
+iter  620 | pi -0.0130 v 4.2688 | rollout Cmax/LB 19.832 | 3519 env-steps/s
+iter  640 | pi -0.0114 v 2.6955 | rollout Cmax/LB 19.220 | 3686 env-steps/s
+iter  650 | greedy eval mean Cmax/LB 19.076  <- best, saved | 37.40 37.27 21.01 22.60 13.97 7.21 44.11 32.91 31.74 27.36 2.04 1.75 1.26 3.30 2.21
+iter  660 | pi -0.0105 v 3.6035 | rollout Cmax/LB 18.852 | 3603 env-steps/s
+iter  680 | pi -0.0134 v 4.5226 | rollout Cmax/LB 18.686 | 3682 env-steps/s
+iter  700 | pi -0.0121 v 3.0571 | rollout Cmax/LB 18.340 | 3693 env-steps/s
+iter  700 | greedy eval mean Cmax/LB 19.631 | 40.91 36.25 23.27 20.72 16.13 7.92 44.11 28.69 30.35 36.59 2.04 1.35 1.45 2.47 2.21
+iter  720 | pi -0.0122 v 4.2292 | rollout Cmax/LB 18.317 | 3605 env-steps/s
+iter  740 | pi -0.0060 v 4.3754 | rollout Cmax/LB 17.813 | 3688 env-steps/s
+iter  750 | greedy eval mean Cmax/LB 18.807  <- best, saved | 37.03 32.24 20.95 22.40 16.01 7.74 40.00 23.88 43.26 28.19 2.00 1.51 1.40 3.14 2.37
+iter  760 | pi -0.0112 v 3.2957 | rollout Cmax/LB 17.735 | 3591 env-steps/s
+iter  780 | pi -0.0112 v 2.5600 | rollout Cmax/LB 17.364 | 3693 env-steps/s
+iter  800 | pi -0.0096 v 2.0866 | rollout Cmax/LB 17.154 | 3695 env-steps/s
+iter  800 | greedy eval mean Cmax/LB 21.383 | 41.33 37.98 23.91 20.87 15.67 8.29 48.21 31.60 45.17 38.57 1.86 1.75 1.45 2.47 1.58
+iter  820 | pi -0.0122 v 3.5736 | rollout Cmax/LB 17.085 | 3599 env-steps/s
+iter  840 | pi -0.0152 v 2.2956 | rollout Cmax/LB 17.089 | 3690 env-steps/s
+iter  850 | greedy eval mean Cmax/LB 18.260  <- best, saved | 43.03 33.66 24.88 21.46 12.14 6.73 35.18 23.74 31.74 32.47 1.56 1.68 1.45 2.80 1.36
+iter  860 | pi -0.0136 v 2.4181 | rollout Cmax/LB 16.918 | 3615 env-steps/s
+iter  880 | pi -0.0085 v 2.2270 | rollout Cmax/LB 16.574 | 3704 env-steps/s
+iter  900 | pi -0.0093 v 2.6154 | rollout Cmax/LB 16.117 | 3701 env-steps/s
+iter  900 | greedy eval mean Cmax/LB 18.814 | 44.02 34.37 23.91 22.60 14.12 7.49 34.82 28.69 30.35 33.63 1.92 1.53 1.40 2.00 1.36
+iter  920 | pi -0.0101 v 2.5723 | rollout Cmax/LB 16.073 | 3618 env-steps/s
+iter  940 | pi -0.0115 v 2.6767 | rollout Cmax/LB 15.996 | 3675 env-steps/s
+iter  950 | greedy eval mean Cmax/LB 17.784  <- best, saved | 37.34 34.32 19.39 18.60 15.30 7.69 49.11 28.25 25.64 23.90 1.30 1.51 1.26 1.72 1.44
+iter  960 | pi -0.0142 v 2.1184 | rollout Cmax/LB 15.853 | 3610 env-steps/s
+iter  980 | pi -0.0092 v 2.3779 | rollout Cmax/LB 15.762 | 3700 env-steps/s
+iter 1000 | pi -0.0078 v 1.8577 | rollout Cmax/LB 15.449 | 3699 env-steps/s
+iter 1000 | greedy eval mean Cmax/LB 16.510  <- best, saved | 34.29 30.92 20.04 17.47 13.97 7.93 29.11 26.65 26.69 32.80 1.30 1.51 1.26 1.72 2.01
+iter 1020 | pi -0.0132 v 1.8841 | rollout Cmax/LB 15.404 | 3620 env-steps/s
+iter 1040 | pi -0.0140 v 1.5781 | rollout Cmax/LB 15.218 | 3698 env-steps/s
+iter 1050 | greedy eval mean Cmax/LB 17.951 | 37.45 29.64 20.25 22.80 13.73 6.86 35.36 33.93 33.66 28.35 1.30 1.51 1.26 1.72 1.44
+iter 1060 | pi -0.0100 v 2.3953 | rollout Cmax/LB 15.158 | 3621 env-steps/s
+iter 1080 | pi -0.0160 v 1.5596 | rollout Cmax/LB 14.765 | 3702 env-steps/s
+iter 1100 | pi -0.0112 v 2.3032 | rollout Cmax/LB 14.671 | 3658 env-steps/s
+iter 1100 | greedy eval mean Cmax/LB 16.043  <- best, saved | 33.57 28.88 19.23 16.38 15.29 7.20 30.00 35.97 24.59 21.92 1.82 1.39 1.26 1.72 1.44
+iter 1120 | pi -0.0167 v 1.1924 | rollout Cmax/LB 14.717 | 3516 env-steps/s
+iter 1140 | pi -0.0151 v 1.4889 | rollout Cmax/LB 14.443 | 3641 env-steps/s
+iter 1150 | greedy eval mean Cmax/LB 18.599 | 36.21 29.75 22.94 18.85 13.53 6.69 34.64 41.80 38.90 28.02 1.30 1.39 1.26 1.72 2.01
+iter 1160 | pi -0.0112 v 1.4281 | rollout Cmax/LB 14.395 | 3597 env-steps/s
+iter 1180 | pi -0.0119 v 1.8173 | rollout Cmax/LB 14.315 | 3519 env-steps/s
+iter 1200 | pi -0.0121 v 1.1679 | rollout Cmax/LB 14.124 | 3574 env-steps/s
+iter 1200 | greedy eval mean Cmax/LB 17.155 | 39.41 33.00 22.84 20.13 14.55 7.87 34.11 27.38 31.22 19.78 1.30 1.39 1.19 1.72 1.44
+iter 1220 | pi -0.0094 v 1.6791 | rollout Cmax/LB 14.101 | 3501 env-steps/s
+iter 1240 | pi -0.0158 v 1.7683 | rollout Cmax/LB 13.924 | 3679 env-steps/s
+iter 1250 | greedy eval mean Cmax/LB 17.550 | 34.50 32.29 21.87 20.87 15.16 7.87 31.25 23.59 40.12 27.86 1.30 1.39 1.19 2.57 1.44
+iter 1260 | pi -0.0104 v 1.8699 | rollout Cmax/LB 13.823 | 3534 env-steps/s
+iter 1280 | pi -0.0147 v 1.7278 | rollout Cmax/LB 13.683 | 3382 env-steps/s
+iter 1300 | pi -0.0105 v 1.6558 | rollout Cmax/LB 13.688 | 3524 env-steps/s
+iter 1300 | greedy eval mean Cmax/LB 16.851 | 36.52 31.98 25.31 19.88 13.25 6.69 37.50 21.55 29.30 23.74 1.30 1.39 1.19 1.72 1.44
+iter 1320 | pi -0.0100 v 1.3434 | rollout Cmax/LB 13.591 | 3507 env-steps/s
+iter 1340 | pi -0.0099 v 1.8895 | rollout Cmax/LB 13.585 | 3583 env-steps/s
+iter 1350 | greedy eval mean Cmax/LB 17.570 | 36.05 32.59 22.19 20.58 14.16 8.02 32.32 37.43 22.85 30.33 1.30 1.39 1.19 1.72 1.44
+iter 1360 | pi -0.0124 v 1.3757 | rollout Cmax/LB 13.620 | 3508 env-steps/s
+iter 1380 | pi -0.0101 v 1.6521 | rollout Cmax/LB 13.516 | 3525 env-steps/s
+iter 1400 | pi -0.0093 v 1.4610 | rollout Cmax/LB 13.327 | 3515 env-steps/s
+iter 1400 | greedy eval mean Cmax/LB 16.626 | 35.22 32.64 23.32 19.49 12.83 6.63 26.79 22.86 32.27 29.18 1.30 2.51 1.19 1.72 1.44
+iter 1420 | pi -0.0111 v 1.5173 | rollout Cmax/LB 13.188 | 3325 env-steps/s
+iter 1440 | pi -0.0105 v 1.1714 | rollout Cmax/LB 13.064 | 3571 env-steps/s
+iter 1450 | greedy eval mean Cmax/LB 16.240 | 36.47 35.75 20.52 17.62 14.99 7.13 27.86 24.32 24.07 27.86 1.30 1.39 1.19 1.72 1.44
+iter 1460 | pi -0.0107 v 1.6237 | rollout Cmax/LB 13.168 | 3477 env-steps/s
+iter 1480 | pi -0.0100 v 1.6343 | rollout Cmax/LB 12.901 | 3388 env-steps/s
+iter 1500 | pi -0.0077 v 1.8728 | rollout Cmax/LB 13.013 | 3414 env-steps/s
+iter 1500 | greedy eval mean Cmax/LB 17.384 | 36.47 31.17 20.68 19.93 13.78 7.58 38.57 25.92 26.34 33.30 1.30 1.39 1.19 1.72 1.44
+iter 1520 | pi -0.0092 v 1.5565 | rollout Cmax/LB 12.996 | 3256 env-steps/s
+iter 1540 | pi -0.0081 v 1.4529 | rollout Cmax/LB 12.849 | 3302 env-steps/s
+iter 1550 | greedy eval mean Cmax/LB 16.685 | 36.93 28.93 21.11 23.19 13.54 6.71 30.89 25.78 26.16 30.00 1.30 1.39 1.19 1.72 1.44
+iter 1560 | pi -0.0085 v 1.2929 | rollout Cmax/LB 12.979 | 3274 env-steps/s
+iter 1580 | pi -0.0112 v 1.4041 | rollout Cmax/LB 12.745 | 3383 env-steps/s
+iter 1600 | pi -0.0086 v 1.6278 | rollout Cmax/LB 12.725 | 3314 env-steps/s
+iter 1600 | greedy eval mean Cmax/LB 17.568 | 35.07 33.31 20.79 20.13 13.79 7.06 38.75 26.94 30.00 30.66 1.30 1.39 1.19 1.72 1.44
+iter 1620 | pi -0.0105 v 1.2185 | rollout Cmax/LB 12.687 | 3274 env-steps/s
+iter 1640 | pi -0.0120 v 0.8975 | rollout Cmax/LB 12.713 | 3300 env-steps/s
+iter 1650 | greedy eval mean Cmax/LB 17.209 | 31.91 34.63 23.48 23.04 14.15 8.02 35.00 25.78 27.73 27.36 1.30 1.39 1.19 1.72 1.44
+iter 1660 | pi -0.0103 v 1.3154 | rollout Cmax/LB 12.632 | 3225 env-steps/s
+iter 1680 | pi -0.0061 v 2.1456 | rollout Cmax/LB 12.691 | 3276 env-steps/s
+iter 1700 | pi -0.0064 v 1.6787 | rollout Cmax/LB 12.515 | 3291 env-steps/s
+iter 1700 | greedy eval mean Cmax/LB 15.763  <- best, saved | 34.34 30.05 20.79 18.16 12.58 7.10 36.25 21.55 26.16 22.42 1.30 1.39 1.19 1.72 1.44
+iter 1720 | pi -0.0127 v 0.9242 | rollout Cmax/LB 12.517 | 3182 env-steps/s
+iter 1740 | pi -0.0081 v 1.0966 | rollout Cmax/LB 12.656 | 3328 env-steps/s
+iter 1750 | greedy eval mean Cmax/LB 16.705 | 35.33 31.63 17.99 21.51 13.87 7.32 41.43 27.52 20.41 26.54 1.30 1.39 1.19 1.72 1.44
+iter 1760 | pi -0.0053 v 2.0475 | rollout Cmax/LB 12.621 | 3345 env-steps/s
+iter 1780 | pi -0.0075 v 1.1764 | rollout Cmax/LB 12.582 | 3266 env-steps/s
+iter 1800 | pi -0.0044 v 1.1377 | rollout Cmax/LB 12.442 | 3323 env-steps/s
+iter 1800 | greedy eval mean Cmax/LB 17.114 | 32.07 34.22 24.29 20.13 14.47 8.04 31.43 32.04 25.47 27.53 1.30 1.39 1.19 1.72 1.44
+iter 1820 | pi -0.0065 v 1.3496 | rollout Cmax/LB 12.319 | 3279 env-steps/s
+iter 1840 | pi -0.0029 v 1.3343 | rollout Cmax/LB 12.267 | 3449 env-steps/s
+iter 1850 | greedy eval mean Cmax/LB 15.559  <- best, saved | 31.09 32.64 21.65 15.69 13.97 7.72 33.39 25.92 22.85 21.43 1.30 1.39 1.19 1.72 1.44
+iter 1860 | pi -0.0067 v 0.9457 | rollout Cmax/LB 12.256 | 3080 env-steps/s
+iter 1880 | pi -0.0064 v 1.6471 | rollout Cmax/LB 12.297 | 3401 env-steps/s
+iter 1900 | pi -0.0059 v 1.0471 | rollout Cmax/LB 12.276 | 3275 env-steps/s
+iter 1900 | greedy eval mean Cmax/LB 16.292 | 31.29 30.15 19.87 19.74 14.74 8.01 31.61 25.05 30.35 26.54 1.30 1.39 1.19 1.72 1.44
+iter 1920 | pi -0.0014 v 2.0027 | rollout Cmax/LB 12.112 | 3205 env-steps/s
+iter 1940 | pi -0.0035 v 1.1076 | rollout Cmax/LB 12.190 | 3238 env-steps/s
+iter 1950 | greedy eval mean Cmax/LB 15.541  <- best, saved | 35.28 31.22 21.71 18.01 12.82 7.99 32.32 25.05 23.90 17.80 1.30 1.39 1.19 1.72 1.44
+iter 1960 | pi -0.0038 v 0.9660 | rollout Cmax/LB 12.073 | 3383 env-steps/s
+iter 1980 | pi -0.0027 v 0.8413 | rollout Cmax/LB 12.016 | 3560 env-steps/s
+iter 2000 | pi -0.0002 v 1.5990 | rollout Cmax/LB 12.002 | 3545 env-steps/s
+iter 2000 | greedy eval mean Cmax/LB 16.402 | 32.17 30.76 19.61 18.75 13.57 8.31 31.61 29.85 32.44 21.92 1.30 1.39 1.19 1.72 1.44
+training finished, best mean Cmax/LB 15.541
